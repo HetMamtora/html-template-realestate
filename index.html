@@ -3,7 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/mainContainer.css">
+    <link rel="stylesheet" href="./styles/edgeCaptions.css">
+    <link rel="stylesheet" href="./styles/imageOverlays.css">
+    <link rel="stylesheet" href="./styles/contactUs.css">
+    <!-- <link rel="stylesheet" href="./styles/style.css"> -->
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=home_pin" />
     <title>Slideshow</title>
@@ -27,7 +31,7 @@
                         home_pin
                         </span>
                         Star Society, A-123, Ahmedabad<br/><br/>
-                    Welcome to your dream home</p>
+                        Welcome to your dream home</p>
                 </div>
                 <div class="slanted-edge-bottom"></div>
                 <div class="caption">
@@ -102,37 +106,55 @@
             </div>
         </div>
 
-          <!-- <div class="slide" style="background-image: url('./images/bathroom1.jpg');">
+        <!-- CHAT GPT read below comment -->
+        <!-- EVERYTHING IS WORKING FINE TILL MASTER BED ROOM SLIDE, further when i add more slide the animations are not lining up perfectly -->
+    
+         <!--<div class="slide" style="background-image: url('./images/bathroom1.jpg');">
             <div class="overlay">
+                <div class="top-rect"></div>
+                <div class="bottom-rect"></div>
                 <div class="slanted-edge-bottom"></div>
+                <div class="rectangle-bar-top"><i> "A sanctuary of relaxation and rejuvenation."</i></div>
                 <div class="caption">
                     <img src="./images/bedroom-hotel-svgrepo-com.svg"/>
                     Bathroom 2
                 </div>
             </div>
-        </div> -->
+        </div>
 
-        <!--<div class="slide" style="background-image: url('./images/kids_room.jpg');">
+        <div class="slide" style="background-image: url('./images/kids_room.jpg');"></div>
             <div class="overlay">
-                <div class="top"></div>
-                <div class="bottom"></div>
+                <div class="bottom-triangle"></div>
+                <div class="top-triangle"></div>
                 <div class="slanted-edge-top"></div>
+                <div class="rectangle-bar-bottom"><i>"A haven of fun and imagination for your little ones."</i></div>
                 <div class="caption">
                     <img src="./images/bedroom-hotel-svgrepo-com.svg"/>
                     Kids Bed Room
                 </div>
             </div>
-        </div> -->
+        </div>-->
 
-        <!--<div class="slide" style="background-image: url('./images/bathroom1.jpg');">
-            <div class="overlay">
-                <div class="slanted-edge-bottom"></div>
-                <div class="caption">
-                    <img src="./images/bedroom-hotel-svgrepo-com.svg"/>
-                    Bathroom 2
+        <div class="slide" style="background-image: url('./images/background.jpg');">
+            <div class="contact-us">
+                
+                <div class="contact-avatar">
+                    <img src="../images/avatar.jpg" alt="Contact Avatar">
                 </div>
+            
+                <div class="contact-info">
+                    <div class="info-item">
+                        <p class="icon-email"></p>
+                        <span>contact@lavishliving.com</span>
+                    </div>
+                    <div class="info-item">
+                        <p class="icon-phone"></p>
+                        <span>+91 987123-4567</span>
+                    </div>
+                </div>
+
             </div>
-        </div> -->
+        </div>
 
     </div>
 </body>
