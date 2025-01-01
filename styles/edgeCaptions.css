@@ -63,6 +63,7 @@
     transform: translateY(10px); 
     z-index: 1500;   
     animation: captionFade 6s infinite ease-in-out;
+    animation-delay: 1s;
 }
 .caption img{
     width: 30px;
